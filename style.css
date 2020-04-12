@@ -1,0 +1,144 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.body{
+	
+}
+
+.cover{
+	width: 100%;
+}
+
+.datetime{
+	left: 10px;
+}
+
+.metro{
+	right: 10px;
+}
+
+.timeplace{
+	position: absolute;
+	bottom: 6px; /*должно быть 3, но глюк?*/
+}
+
+.line{
+	position: absolute;
+	width:100%;
+	height:28px;
+	background-color:rgba(0,0,0,.7);
+	bottom: 5px; /*должно быть 0, но глюк?*/
+}
+
+.pic{
+	width:100%;
+	opacity:1;
+}
+
+.upper{
+	position: relative;
+	color: white;
+	font-size: 20px;
+	max-height:500px;
+	min-height:340px;
+}
+
+.btn{
+	position: fixed;
+	right:10px;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background-color:gray;
+	cursor: pointer;
+}
+
+.ico{
+	
+	font-size:38px;
+	font-weight: bold;
+	color:green;
+}
+
+
+
+
+
+
+//* @font-face {
+  src: url(https://code.s3.yandex.net/web-code/fonts/SuisseIntl-Book.woff);
+  font-family: 'Suisse';
+  font-weight: normal;
+}
+
+@font-face {
+  src: url(https://code.s3.yandex.net/web-code/fonts/SuisseIntl-Bold.woff
+);
+  font-family: 'Suisse';
+  font-weight: bold;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: #021;
+  color: white;
+  max-width: 540px;
+  height: 100%;
+  margin: 0 auto;
+  font-family: 'Suisse';
+  box-sizing: border-box;
+  padding: 36px;
+  max-height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.button {
+  width: 130px;
+  height: 40px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  border: 1px solid white;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.button:hover {
+  opacity: 0.5;
+}
+
+.image {
+  width: 100%;
+  display: block;
+  margin: 70px auto 60px;
+}
+
+.advice {
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.footer {
+  font-size: 16px;
+  margin-top: 70px;
+}
+
